@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios'
 import { imgUpload } from '../helpers/imgUpload';
 import { url } from '../helpers/url';
