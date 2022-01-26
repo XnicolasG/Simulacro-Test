@@ -11,7 +11,6 @@ export const ContCards = styled.div`
     display: flex;
 `
 export const Card = styled.div`
-    width: 20%;
     height: 30vh;
     padding: 2%;
     border-radius: 5px;
@@ -32,6 +31,7 @@ export const Image = styled.img`
 `
 export const Nombre = styled.h3`
     margin-top: 1%;
+    font-size: 1em;
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
