@@ -17,7 +17,7 @@ export const Listado = () => {
     }
 
     const deleteData = async (id)=>{
-        const res = await fetch(url+id,{
+        await fetch(url+id,{
             method: "DELETE"
         })
             getData();
