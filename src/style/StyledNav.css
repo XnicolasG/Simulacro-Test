@@ -1,0 +1,23 @@
+nav{
+    background: black;
+    width: 100%;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+}
+h2{
+    color: coral;
+    font-size: 1.5em;
+    margin-left: 5%;
+}
+.cont{
+    margin: auto;
+    margin-left: 20%;
+}
+.links{
+    margin: 20%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+}
